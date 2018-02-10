@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour {
     public int bulletsPerLoad = 30;
     public int numOfBullets;
     public float fireRate = 0.1f;
+    public float damageAmount = 20f;
     float fireTimer;
 
     public Transform shootPoint;
@@ -56,7 +57,12 @@ public class Weapon : MonoBehaviour {
 
         RaycastHit hit;
         if (Physics.Raycast(shootPoint.position, shootPoint.transform.forward, out hit, range)) {
-            Debug.Log("HIT FOUND");
+            Debug.Log("HIT FOUND" + hit.collider.name);
+
+            if (hit.transform.GetComponent<HealthController>()) {
+                Debug.Log("HEALTH CONTROLLER FOUND");
+                hit.transform.GetComponent<HealthController>().ApplyDamage(damageAmount);
+            }
         }
 
         anim.CrossFadeInFixedTime("Fire", 0.1f);
