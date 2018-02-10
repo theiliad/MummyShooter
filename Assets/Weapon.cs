@@ -41,7 +41,7 @@ public class Weapon : MonoBehaviour {
                 _fire();
             else
                 _reloadAnimation();
-        } if (Input.GetKeyDown(KeyCode.R)) {
+        } else if (Input.GetKeyDown(KeyCode.R)) {
             if (numOfBullets < bulletsPerLoad) {
                 _reloadAnimation();
             }
@@ -59,9 +59,9 @@ public class Weapon : MonoBehaviour {
         if (Physics.Raycast(shootPoint.position, shootPoint.transform.forward, out hit, range)) {
             Debug.Log("HIT FOUND" + hit.collider.name);
 
-            if (hit.transform.GetComponent<HealthController>()) {
+            if (hit.collider.GetComponentInParent<HealthController>()) {
                 Debug.Log("HEALTH CONTROLLER FOUND");
-                hit.transform.GetComponent<HealthController>().ApplyDamage(damageAmount);
+                hit.collider.GetComponentInParent<HealthController>().ApplyDamage(damageAmount);
             }
         }
 
