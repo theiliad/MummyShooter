@@ -79,7 +79,9 @@ public class Weapon : MonoBehaviour {
     }
 
     private void _playFireSound() {
-        _AudioSource.clip = fireSound;
-        _AudioSource.Play();
+        _AudioSource.PlayOneShot(fireSound);
+
+        // _AudioSource.clip = fireSound;
+        // _AudioSource.Play();
     }
 }
