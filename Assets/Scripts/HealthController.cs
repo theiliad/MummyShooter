@@ -13,8 +13,14 @@ public class HealthController : MonoBehaviour {
 	public void ApplyDamage(float damage) {
 		Debug.Log("GOT HIT: " + damage);
 
-		anim.CrossFadeInFixedTime("takeDamage", 0.1f);
+		if (health > 0) {
+			anim.CrossFadeInFixedTime("takeDamage", 0.1f);
+			health -= damage;
 
-		health -= damage;
+			if (health <= 0) {
+				anim.CrossFadeInFixedTime("die02", 0.1f);
+				Destroy(gameObject, 5);
+			}
+		}
 	}
 }

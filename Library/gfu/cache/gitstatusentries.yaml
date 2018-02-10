@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-02-10T19:29:39.1829370-05:00
-  lastVerifiedAtString: 2018-02-10T19:30:41.8488330-05:00
+  lastUpdatedAtString: 2018-02-10T19:41:10.3887830-05:00
+  lastVerifiedAtString: 2018-02-10T19:41:10.3887830-05:00
   initializedAtString: 2018-02-10T18:21:18.9418750-05:00
   entries:
   - path: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
@@ -30,30 +30,6 @@ MonoBehaviour:
   - path: Assets/Scripts/HealthController.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Scripts/HealthController.cs
     projectPath: Assets/Scripts/HealthController.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Weapon.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
-    projectPath: Assets/Weapon.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/AnnotationManager
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/AnnotationManager
-    projectPath: Library/AnnotationManager
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
@@ -105,129 +81,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/00/00000000000000002000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000002000000000000000
-    projectPath: Library/metadata/00/00000000000000002000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000003000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000003000000000000000
-    projectPath: Library/metadata/00/00000000000000003000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000004000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000004000000000000000
-    projectPath: Library/metadata/00/00000000000000004000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000004100000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000004100000000000000
-    projectPath: Library/metadata/00/00000000000000004100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000005000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000005000000000000000
-    projectPath: Library/metadata/00/00000000000000005000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000005100000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000005100000000000000
-    projectPath: Library/metadata/00/00000000000000005100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000006000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000006000000000000000
-    projectPath: Library/metadata/00/00000000000000006000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000006100000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000006100000000000000
-    projectPath: Library/metadata/00/00000000000000006100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000007000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000007000000000000000
-    projectPath: Library/metadata/00/00000000000000007000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000007100000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000007100000000000000
-    projectPath: Library/metadata/00/00000000000000007100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000008000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000008000000000000000
-    projectPath: Library/metadata/00/00000000000000008000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000009000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000009000000000000000
-    projectPath: Library/metadata/00/00000000000000009000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000a000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/0000000000000000a000000000000000
-    projectPath: Library/metadata/00/0000000000000000a000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000a100000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/0000000000000000a100000000000000
-    projectPath: Library/metadata/00/0000000000000000a100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000b000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/0000000000000000b000000000000000
-    projectPath: Library/metadata/00/0000000000000000b000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000c000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/0000000000000000c000000000000000
-    projectPath: Library/metadata/00/0000000000000000c000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/metadata/13/13379dba45b784add9525984ed256a74
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
-    projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings/GraphicsSettings.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/ProjectSettings/GraphicsSettings.asset
-    projectPath: ProjectSettings/GraphicsSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp/UnityTempFile-edd18368f048e4854a26371a743188da
-    fullPath: /Users/Shared/Unity/MummyShooter/Temp/UnityTempFile-edd18368f048e4854a26371a743188da
-    projectPath: Temp/UnityTempFile-edd18368f048e4854a26371a743188da
-    originalPath: 
-    status: 5
     staged: 0
