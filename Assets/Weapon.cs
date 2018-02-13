@@ -10,7 +10,7 @@ public class Weapon : MonoBehaviour {
     public int bulletsPerLoad = 30;
     public int numOfBullets;
     public float fireRate = 0.1f;
-    public float damageAmount = 20f;
+    public float damageAmount = 10f;
     float fireTimer;
 
     public Transform shootPoint;
@@ -20,12 +20,27 @@ public class Weapon : MonoBehaviour {
 
     private bool isReloading;
 
+    public Texture2D crosshairTexture;
+    private Rect position;
+    private bool OriginalOn = true;
+
     void Start() {
         anim = GetComponent<Animator>();
         _AudioSource = GetComponent<AudioSource>();
 
         numOfBullets = bulletsPerLoad;
         anim.SetBool("Fire", false);
+
+        float width = crosshairTexture.width + 10;
+        float height = crosshairTexture.height + 10;
+        position = new Rect((Screen.width - width) / 2, (Screen.height - 
+            height) /2, width , height);
+    }
+
+    void OnGUI() {
+        if(OriginalOn == true) {
+            GUI.DrawTexture(position, crosshairTexture);
+        }
     }
 
     void FixedUpdate() {
