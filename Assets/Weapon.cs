@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour {
     private Animator anim;
     private AudioSource _AudioSource;
 
-    public float range = 100f;
+    public float range = 2000f;
     public int bulletsPerLoad = 30;
     public int numOfBullets;
     public float fireRate = 0.1f;
@@ -31,8 +31,8 @@ public class Weapon : MonoBehaviour {
         numOfBullets = bulletsPerLoad;
         anim.SetBool("Fire", false);
 
-        float width = crosshairTexture.width + 10;
-        float height = crosshairTexture.height + 10;
+        float width = crosshairTexture.width + 20;
+        float height = crosshairTexture.height + 20;
         position = new Rect((Screen.width - width) / 2, (Screen.height - 
             height) /2, width , height);
     }

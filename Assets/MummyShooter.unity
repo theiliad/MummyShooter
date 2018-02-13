@@ -244,7 +244,7 @@ MonoBehaviour:
   shootPoint: {fileID: 326936489}
   muzzleFlash: {fileID: 1603149676}
   fireSound: {fileID: 8300000, guid: d825bf40ab4ed4f138fca613e2105c9f, type: 3}
-  crosshairTexture: {fileID: 2800000, guid: 9e6fdb7bfc45d4d48ad99eedc050a082, type: 3}
+  crosshairTexture: {fileID: 2800000, guid: 522e2eec793857746ad0f1fa3fa2767b, type: 3}
 --- !u!82 &187908147
 AudioSource:
   m_ObjectHideFlags: 0
