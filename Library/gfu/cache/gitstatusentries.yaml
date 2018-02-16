@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-02-13T13:03:00.8632940-05:00
-  lastVerifiedAtString: 2018-02-13T13:03:00.8632940-05:00
-  initializedAtString: 2018-02-13T12:33:34.8296240-05:00
+  lastUpdatedAtString: 2018-02-16T15:59:00.3645860-05:00
+  lastVerifiedAtString: 2018-02-16T15:59:00.3645860-05:00
+  initializedAtString: 2018-02-16T15:28:30.3959990-05:00
   entries:
   - path: Assets/MummyShooter.unity
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
@@ -24,6 +24,24 @@ MonoBehaviour:
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
@@ -80,4 +98,28 @@ MonoBehaviour:
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Audio.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio.meta
+    projectPath: Assets/Audio.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+    projectPath: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+    projectPath: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+    originalPath: 
+    status: 1
     staged: 0

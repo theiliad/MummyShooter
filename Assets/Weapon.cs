@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour {
     private Animator anim;
+
+    public AudioSource[] _AudioSources;
     private AudioSource _AudioSource;
 
     public float range = 2000f;
@@ -17,17 +19,20 @@ public class Weapon : MonoBehaviour {
     public ParticleSystem muzzleFlash;
     
     public AudioClip fireSound;
+    public AudioClip backgroundMusic;
 
     private bool isReloading;
 
     public Texture2D crosshairTexture;
     private Rect position;
-    private bool OriginalOn = true;
 
     void Start() {
         anim = GetComponent<Animator>();
-        _AudioSource = GetComponent<AudioSource>();
 
+        
+        _AudioSources = GetComponents<AudioSource>();
+        _AudioSources[1].PlayOneShot(backgroundMusic);
+        
         numOfBullets = bulletsPerLoad;
         anim.SetBool("Fire", false);
 
@@ -38,9 +43,7 @@ public class Weapon : MonoBehaviour {
     }
 
     void OnGUI() {
-        if(OriginalOn == true) {
-            GUI.DrawTexture(position, crosshairTexture);
-        }
+        GUI.DrawTexture(position, crosshairTexture);
     }
 
     void FixedUpdate() {
@@ -100,7 +103,7 @@ public class Weapon : MonoBehaviour {
     }
 
     private void _playFireSound() {
-        _AudioSource.PlayOneShot(fireSound);
+        _AudioSources[0].PlayOneShot(fireSound);
 
         // _AudioSource.clip = fireSound;
         // _AudioSource.Play();
