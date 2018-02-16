@@ -25,13 +25,18 @@ public class Weapon : MonoBehaviour {
 
     public Texture2D crosshairTexture;
     private Rect position;
+    
+    private bool _devMode = false;
 
     void Start() {
         anim = GetComponent<Animator>();
 
         
         _AudioSources = GetComponents<AudioSource>();
-        _AudioSources[1].PlayOneShot(backgroundMusic);
+        if (!_devMode) {
+            _AudioSources[1].clip = backgroundMusic;
+            _AudioSources[1].Play();
+        }
         
         numOfBullets = bulletsPerLoad;
         anim.SetBool("Fire", false);

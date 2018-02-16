@@ -11,10 +11,130 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-02-16T15:59:07.1771670-05:00
-  lastVerifiedAtString: 2018-02-16T15:59:07.1771670-05:00
+  lastUpdatedAtString: 2018-02-16T16:02:17.5871300-05:00
+  lastVerifiedAtString: 2018-02-16T16:02:17.5871300-05:00
   initializedAtString: 2018-02-16T15:28:29.9430270-05:00
   log:
+  - commitID: bbe0dbcfa2b8cb7c6815ee212029869ec1bbe05b
+    mergeA: 
+    mergeB: 
+    authorName: The Iliad
+    authorEmail: iliadmoosavi@gmail.com
+    commitEmail: iliadmoosavi@gmail.com
+    commitName: The Iliad
+    summary: Added background music
+    description: Added background music
+    timeString: 2018-02-16T15:59:23.0000000-05:00
+    commitTimeString: 2018-02-16T15:59:23.0000000-05:00
+    changes:
+    - path: Assets/Audio.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio.meta
+      projectPath: Assets/Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+      projectPath: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+      projectPath: Assets/Audio/Lobo_Loco_-_18_-_Desert_Plains_Travel_ID_723.mp3.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/MummyShooter.unity
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
+      projectPath: Assets/MummyShooter.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Weapon.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
+      projectPath: Assets/Weapon.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+      projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 28ec3b2a4c28a580920eb258eb8cec90a5855e27
     mergeA: 
     mergeB: 
