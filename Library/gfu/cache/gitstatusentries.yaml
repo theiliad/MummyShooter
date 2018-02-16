@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-02-16T16:38:12.2533540-05:00
-  lastVerifiedAtString: 2018-02-16T16:38:12.2533540-05:00
+  lastUpdatedAtString: 2018-02-16T16:44:44.7116350-05:00
+  lastVerifiedAtString: 2018-02-16T16:44:50.8702270-05:00
   initializedAtString: 2018-02-16T16:36:43.1353540-05:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/Shared/Unity/MummyShooter/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets/ImpactPrefabs-1/BulletHole01.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHole01.prefab
+    projectPath: Assets/ImpactPrefabs-1/BulletHole01.prefab
     originalPath: 
     status: 3
     staged: 0
@@ -33,12 +33,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/ScriptAssemblies/Assembly-CSharp.dll
     fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
@@ -50,12 +44,6 @@ MonoBehaviour:
     projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
@@ -98,94 +86,4 @@ MonoBehaviour:
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/ImpactPrefabs-1.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1.meta
-    projectPath: Assets/ImpactPrefabs-1.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHole01.prefab
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHole01.prefab
-    projectPath: Assets/ImpactPrefabs-1/BulletHole01.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHole01.prefab.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHole01.prefab.meta
-    projectPath: Assets/ImpactPrefabs-1/BulletHole01.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets.meta
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat.meta
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/BulletHole.mat.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png.meta
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/Rough_Hole_03.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png.meta
-    projectPath: Assets/ImpactPrefabs-1/BulletHoleAssets/metal_hole_06.png.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/HitSparks.prefab
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/HitSparks.prefab
-    projectPath: Assets/ImpactPrefabs-1/HitSparks.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/HitSparks.prefab.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/HitSparks.prefab.meta
-    projectPath: Assets/ImpactPrefabs-1/HitSparks.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/ReadMe.txt
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/ReadMe.txt
-    projectPath: Assets/ImpactPrefabs-1/ReadMe.txt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ImpactPrefabs-1/ReadMe.txt.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/ImpactPrefabs-1/ReadMe.txt.meta
-    projectPath: Assets/ImpactPrefabs-1/ReadMe.txt.meta
-    originalPath: 
-    status: 1
     staged: 0

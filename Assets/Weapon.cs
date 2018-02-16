@@ -86,11 +86,15 @@ public class Weapon : MonoBehaviour {
             Debug.Log("HIT FOUND" + hit.collider.name);
 
             GameObject hitParticleEffect = Instantiate(hitParticles, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
-            Destroy(hitParticleEffect, 2);
+            Destroy(hitParticleEffect, 1f);
+            
 
             if (hit.collider.GetComponentInParent<HealthController>()) {
                 Debug.Log("HEALTH CONTROLLER FOUND");
                 hit.collider.GetComponentInParent<HealthController>().ApplyDamage(damageAmount);
+            } else {
+                GameObject bulletHole = Instantiate(bulletImpact, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
+                Destroy(bulletHole, 30f);
             }
         }
 

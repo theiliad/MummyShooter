@@ -246,7 +246,8 @@ MonoBehaviour:
   muzzleFlash: {fileID: 1603149676}
   hitParticles: {fileID: 1617700753897852, guid: 2fc51477906b5d44b93e53cc25b2d012,
     type: 2}
-  bulletImpact: {fileID: 0}
+  bulletImpact: {fileID: 1235035097298946, guid: 13a41486f54c3634fb3e501928c77d9d,
+    type: 2}
   fireSound: {fileID: 8300000, guid: d825bf40ab4ed4f138fca613e2105c9f, type: 3}
   backgroundMusic: {fileID: 8300000, guid: e8c91ce9c85484f30b5871ca9f873b6c, type: 3}
   crosshairTexture: {fileID: 2800000, guid: 522e2eec793857746ad0f1fa3fa2767b, type: 3}
