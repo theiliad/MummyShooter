@@ -15,8 +15,11 @@ public class Weapon : MonoBehaviour {
     public float damageAmount = 10f;
     float fireTimer;
 
+    [Header("Weapon Config")]
     public Transform shootPoint;
     public ParticleSystem muzzleFlash;
+    public GameObject hitParticles;
+    public GameObject bulletImpact;
     
     public AudioClip fireSound;
     public AudioClip backgroundMusic;
@@ -26,7 +29,7 @@ public class Weapon : MonoBehaviour {
     public Texture2D crosshairTexture;
     private Rect position;
     
-    private bool _devMode = false;
+    private bool _devMode = true;
 
     void Start() {
         anim = GetComponent<Animator>();
@@ -81,6 +84,9 @@ public class Weapon : MonoBehaviour {
         RaycastHit hit;
         if (Physics.Raycast(shootPoint.position, shootPoint.transform.forward, out hit, range)) {
             Debug.Log("HIT FOUND" + hit.collider.name);
+
+            GameObject hitParticleEffect = Instantiate(hitParticles, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
+            Destroy(hitParticleEffect, 2);
 
             if (hit.collider.GetComponentInParent<HealthController>()) {
                 Debug.Log("HEALTH CONTROLLER FOUND");

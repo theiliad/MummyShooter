@@ -11,10 +11,82 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-02-16T16:02:17.5871300-05:00
-  lastVerifiedAtString: 2018-02-16T16:02:17.5871300-05:00
-  initializedAtString: 2018-02-16T15:28:29.9430270-05:00
+  lastUpdatedAtString: 2018-02-16T16:38:19.2110280-05:00
+  lastVerifiedAtString: 2018-02-16T16:38:19.2110280-05:00
+  initializedAtString: 2018-02-16T16:36:42.8779280-05:00
   log:
+  - commitID: 1d8f2526bc3981bc862415af36543ecc90773020
+    mergeA: 
+    mergeB: 
+    authorName: The Iliad
+    authorEmail: iliadmoosavi@gmail.com
+    commitEmail: iliadmoosavi@gmail.com
+    commitName: The Iliad
+    summary: Play music when devMode is off
+    description: Play music when devMode is off
+    timeString: 2018-02-16T16:02:34.0000000-05:00
+    commitTimeString: 2018-02-16T16:02:34.0000000-05:00
+    changes:
+    - path: Assets/Weapon.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
+      projectPath: Assets/Weapon.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+      projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: bbe0dbcfa2b8cb7c6815ee212029869ec1bbe05b
     mergeA: 
     mergeB: 

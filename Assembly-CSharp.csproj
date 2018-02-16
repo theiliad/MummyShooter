@@ -68,6 +68,7 @@
      <Compile Include="Assets\SMC Pack 1\Demo\Files\V_SMC_Handler.cs" />
      <Compile Include="Assets\SMC Pack 1\Demo\Files\V_Text.cs" />
      <Compile Include="Assets\Weapon.cs" />
+     <None Include="Assets\ImpactPrefabs-1\ReadMe.txt" />
      <None Include="Assets\Mummy\Materials\myStandart.shader" />
      <None Include="Assets\Chibi Mummy\readme.txt" />
  <Reference Include="UnityEngine.UI">
