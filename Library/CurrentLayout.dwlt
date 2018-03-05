@@ -62251,7 +62251,7 @@ MonoBehaviour:
     lastCurrentBranchChangedEvent:
       updatedTimeString: 2018-02-09T23:29:52.1667970-05:00
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-02-14T14:46:55.2455990-05:00
+      updatedTimeString: 2018-03-03T18:13:59.4848890-05:00
     lastLocksChangedEvent:
       updatedTimeString: 
   historyView:
@@ -62581,7 +62581,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 59}
     m_SelectedIDs: e6370000
     m_LastClickedID: 14310
-    m_ExpandedIDs: 000000004a2800000c2900008e290000342a00009c2a0000be2c0000802d00009a2d0000043100001a320000
+    m_ExpandedIDs: 000000004a2800000e29000090290000362a00009e2a0000c62c0000942d0000ae2d00001c31000032320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -62609,7 +62609,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a2800000c2900008e290000342a00009c2a0000be2c0000802d00009a2d0000043100001a320000
+    m_ExpandedIDs: 000000004a2800000e29000090290000362a00009e2a0000c62c0000942d0000ae2d00001c31000032320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

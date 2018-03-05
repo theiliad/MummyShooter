@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MummyShooter", "Assembly-CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MummyShooter", "Assembly-CSharp-Editor-firstpass.csproj", "{0037E905-3458-1B5C-8A4F-0170F0546319}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MummyShooter", "Assembly-CSharp-Editor.csproj", "{1C2D4B5B-4429-E887-EAF0-3E7D128628D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{0037E905-3458-1B5C-8A4F-0170F0546319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0037E905-3458-1B5C-8A4F-0170F0546319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0037E905-3458-1B5C-8A4F-0170F0546319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2D4B5B-4429-E887-EAF0-3E7D128628D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2D4B5B-4429-E887-EAF0-3E7D128628D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2D4B5B-4429-E887-EAF0-3E7D128628D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2D4B5B-4429-E887-EAF0-3E7D128628D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
