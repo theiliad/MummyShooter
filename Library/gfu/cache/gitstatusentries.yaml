@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T21:08:52.8451230-05:00
-  lastVerifiedAtString: 2018-03-05T21:08:52.8672040-05:00
+  lastUpdatedAtString: 2018-03-05T21:21:51.0730260-05:00
+  lastVerifiedAtString: 2018-03-05T21:22:25.4439300-05:00
   initializedAtString: 2018-03-05T20:39:56.4723860-05:00
   entries:
   - path: Assets/CanvasController.cs
@@ -84,6 +84,12 @@ MonoBehaviour:
   - path: Library/metadata/13/13379dba45b784add9525984ed256a74
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
     staged: 0

@@ -16,10 +16,6 @@ public class CanvasController : MonoBehaviour {
     void removeIntroText() {
         Destroy(intro, 0);
     }
-
-	public void test() {
-        Debug.Log("Hello");
-    }
 	
 	// Update is called once per frame
 	void Update () {

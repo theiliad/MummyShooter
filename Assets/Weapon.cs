@@ -34,10 +34,19 @@ public class Weapon : MonoBehaviour {
 
     private Text ammoText;
 
+    void spawnMummy() {
+        Vector3 randomPos = new Vector3(Random.Range(0.0f, 30.0f), 0, Random.Range(0.0f, 30.0f));
+        Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
+    }
+    
     void Start() {
         anim = GetComponent<Animator>();
-
         ammoText = GameObject.Find("Ammo").GetComponent<Text>();
+
+        for (int i = 1; i <= 5; i++) {
+            spawnMummy();
+        }
+        Invoke("spawnMummy", 1);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {

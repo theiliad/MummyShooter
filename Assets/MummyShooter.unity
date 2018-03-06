@@ -1455,6 +1455,10 @@ Prefab:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1821386921558278, guid: c883edf78f2aa47ac8e9b7e3e233539e, type: 2}
+      propertyPath: m_Name
+      value: mummy_rig
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114612908569567822, guid: c883edf78f2aa47ac8e9b7e3e233539e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: c883edf78f2aa47ac8e9b7e3e233539e, type: 2}
@@ -1946,7 +1950,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -559368846
+  randomSeed: -4470874
   InitialModule:
     serializedVersion: 3
     enabled: 1
