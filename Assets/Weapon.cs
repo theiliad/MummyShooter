@@ -87,7 +87,6 @@ public class Weapon : MonoBehaviour {
 
             GameObject hitParticleEffect = Instantiate(hitParticles, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
             Destroy(hitParticleEffect, 1f);
-            
 
             if (hit.collider.GetComponentInParent<HealthController>()) {
                 Debug.Log("HEALTH CONTROLLER FOUND");
