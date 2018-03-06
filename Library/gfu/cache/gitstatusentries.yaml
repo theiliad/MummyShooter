@@ -11,13 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T20:51:55.0992490-05:00
-  lastVerifiedAtString: 2018-03-05T20:51:55.1184200-05:00
+  lastUpdatedAtString: 2018-03-05T21:08:52.8451230-05:00
+  lastVerifiedAtString: 2018-03-05T21:08:52.8672040-05:00
   initializedAtString: 2018-03-05T20:39:56.4723860-05:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/Shared/Unity/MummyShooter/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets/CanvasController.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
+    projectPath: Assets/CanvasController.cs
     originalPath: 
     status: 3
     staged: 0
@@ -30,30 +30,6 @@ MonoBehaviour:
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
     originalPath: 
     status: 3
     staged: 0
@@ -110,58 +86,4 @@ MonoBehaviour:
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
     originalPath: 
     status: 3
-    staged: 0
-  - path: Assets/CanvasController.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
-    projectPath: Assets/CanvasController.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/CanvasController.cs.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs.meta
-    projectPath: Assets/CanvasController.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts.meta
-    projectPath: Assets/Fonts.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/Egyptian Nights.ttf
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Egyptian Nights.ttf
-    projectPath: Assets/Fonts/Egyptian Nights.ttf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/Egyptian Nights.ttf.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Egyptian Nights.ttf.meta
-    projectPath: Assets/Fonts/Egyptian Nights.ttf.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/Intro.prefab
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Intro.prefab
-    projectPath: Assets/Fonts/Intro.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/Intro.prefab.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Intro.prefab.meta
-    projectPath: Assets/Fonts/Intro.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/luckiestguy.ttf
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/luckiestguy.ttf
-    projectPath: Assets/Fonts/luckiestguy.ttf
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Fonts/luckiestguy.ttf.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/luckiestguy.ttf.meta
-    projectPath: Assets/Fonts/luckiestguy.ttf.meta
-    originalPath: 
-    status: 1
     staged: 0

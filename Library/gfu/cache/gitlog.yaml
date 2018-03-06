@@ -11,10 +11,178 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T20:51:44.3606470-05:00
-  lastVerifiedAtString: 2018-03-05T20:51:44.3606470-05:00
+  lastUpdatedAtString: 2018-03-05T21:09:03.1755900-05:00
+  lastVerifiedAtString: 2018-03-05T21:09:03.1755900-05:00
   initializedAtString: 2018-03-05T20:39:55.9121060-05:00
   log:
+  - commitID: 704a1079dc454c4b666d0614503d243051e0e264
+    mergeA: 
+    mergeB: 
+    authorName: The Iliad
+    authorEmail: iliadmoosavi@gmail.com
+    commitEmail: iliadmoosavi@gmail.com
+    commitName: The Iliad
+    summary: Added some UI
+    description: Added some UI
+    timeString: 2018-03-05T20:51:59.0000000-05:00
+    commitTimeString: 2018-03-05T20:51:59.0000000-05:00
+    changes:
+    - path: Assembly-CSharp.csproj
+      fullPath: /Users/Shared/Unity/MummyShooter/Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/CanvasController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
+      projectPath: Assets/CanvasController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/CanvasController.cs.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs.meta
+      projectPath: Assets/CanvasController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts.meta
+      projectPath: Assets/Fonts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/Egyptian Nights.ttf
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Egyptian Nights.ttf
+      projectPath: Assets/Fonts/Egyptian Nights.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/Egyptian Nights.ttf.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Egyptian Nights.ttf.meta
+      projectPath: Assets/Fonts/Egyptian Nights.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/Intro.prefab
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Intro.prefab
+      projectPath: Assets/Fonts/Intro.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/Intro.prefab.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/Intro.prefab.meta
+      projectPath: Assets/Fonts/Intro.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/luckiestguy.ttf
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/luckiestguy.ttf
+      projectPath: Assets/Fonts/luckiestguy.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Fonts/luckiestguy.ttf.meta
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Fonts/luckiestguy.ttf.meta
+      projectPath: Assets/Fonts/luckiestguy.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/MummyShooter.unity
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
+      projectPath: Assets/MummyShooter.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Weapon.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
+      projectPath: Assets/Weapon.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+      projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 4d17969712ee1ace14290372da34ffecfd6be700
     mergeA: 
     mergeB: 

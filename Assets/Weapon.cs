@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour {
     private Animator anim;
@@ -31,9 +32,12 @@ public class Weapon : MonoBehaviour {
     
     private bool _devMode = true;
 
+    private Text ammoText;
+
     void Start() {
         anim = GetComponent<Animator>();
 
+        ammoText = GameObject.Find("Ammo").GetComponent<Text>();
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {
@@ -104,6 +108,7 @@ public class Weapon : MonoBehaviour {
         // anim.SetBool("Fire", true);
 
         numOfBullets--;
+        ammoText.text = "Ammo (" + numOfBullets + "/∞)";
         fireTimer = 0.0f;
     }
 
@@ -114,6 +119,7 @@ public class Weapon : MonoBehaviour {
 
     public void reload() {
         numOfBullets = bulletsPerLoad;
+        ammoText.text = "Ammo (" + numOfBullets + "/∞)";
     }
 
     private void _playFireSound() {
