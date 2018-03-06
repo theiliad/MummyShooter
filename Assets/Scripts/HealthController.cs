@@ -33,8 +33,9 @@ public class HealthController : MonoBehaviour {
 				anim.SetBool("HitPlayer", false);
 				anim.CrossFadeInFixedTime("die02", 0.1f);
 
-				String resultString = Regex.Match(mummiesText.text, @"\d+").Value;
-        		mummiesText.text = "Mummmies: " + (Int32.Parse(resultString) - 1);
+				Weapon weaponController = GameObject.Find("FPS-AK47").GetComponent<Weapon>();
+				weaponController.numOfMummies -= 1;
+        		mummiesText.text = "Mummmies: " + weaponController.numOfMummies;
 				
 				Destroy(gameObject, 5);
 			}

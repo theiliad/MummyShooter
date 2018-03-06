@@ -32,21 +32,25 @@ public class Weapon : MonoBehaviour {
     public Texture2D crosshairTexture;
     private Rect position;
     
-    private bool _devMode = true;
+    private bool _devMode = false;
 
     private Text healthText;
     private Text ammoText;
     private Text mummiesText;
+    private Text loserText;
+    private Text winnerText;
 
     public double playerHealth = 100;
     public double oldHealth = 100;
+
+    public int numOfMummies = 1;
 
     void spawnMummy() {
         Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
         Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
 
-        String resultString = Regex.Match(mummiesText.text, @"\d+").Value;
-        mummiesText.text = "Mummmies: " + (Int32.Parse(resultString) + 1);
+        numOfMummies++;
+        mummiesText.text = "Mummmies: " + numOfMummies;        
     }
     
     void Start() {
@@ -54,8 +58,13 @@ public class Weapon : MonoBehaviour {
         healthText = GameObject.Find("Health").GetComponent<Text>();
         ammoText = GameObject.Find("Ammo").GetComponent<Text>();
         mummiesText = GameObject.Find("Mummies").GetComponent<Text>();
+        loserText = GameObject.Find("Loser").GetComponent<Text>();
+        winnerText = GameObject.Find("Winner").GetComponent<Text>();
 
-        for (int i = 1; i <= 5; i++) {
+        winnerText.gameObject.SetActive(false);
+        loserText.gameObject.SetActive(false);
+
+        for (int i = 0; i < 5; i++) {
             spawnMummy();
         }
         InvokeRepeating("spawnMummy", 5.0f, 5.0f);
@@ -107,7 +116,7 @@ public class Weapon : MonoBehaviour {
             oldHealth = playerHealth;
         }
 
-        if (playerHealth < 81) {
+        if (playerHealth > 0 && playerHealth < 81) {
             if (playerHealth >= 70) {
                 healthText.color = new Color(1f, 0.5f, 0.8f);
             } else if (playerHealth >= 40) {
@@ -115,6 +124,24 @@ public class Weapon : MonoBehaviour {
             } else {
                 healthText.color = new Color(1f, 0, 0);
             }
+        }
+
+        if (playerHealth <= 0) {
+            gameOver(false);
+        }
+
+        if (numOfMummies == 0) {
+            gameOver(true);
+        }
+    }
+
+    private void gameOver(bool userWon) {
+        Time.timeScale = 0;
+
+        if (userWon) {
+            winnerText.gameObject.SetActive(true);
+        } else {
+            loserText.gameObject.SetActive(true);
         }
     }
 

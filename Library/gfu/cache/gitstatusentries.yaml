@@ -11,10 +11,22 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T22:04:07.8238530-05:00
-  lastVerifiedAtString: 2018-03-05T22:04:07.8413270-05:00
-  initializedAtString: 2018-03-05T20:39:56.4723860-05:00
+  lastUpdatedAtString: 2018-03-05T22:38:32.9696790-05:00
+  lastVerifiedAtString: 2018-03-05T22:38:32.9783050-05:00
+  initializedAtString: 2018-03-05T22:24:32.2601750-05:00
   entries:
+  - path: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
+    projectPath: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/CanvasController.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
+    projectPath: Assets/CanvasController.cs
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assets/EnemyController.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/EnemyController.cs
     projectPath: Assets/EnemyController.cs
@@ -36,6 +48,12 @@ MonoBehaviour:
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -102,6 +120,12 @@ MonoBehaviour:
   - path: Library/metadata/13/13379dba45b784add9525984ed256a74
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
     originalPath: 
     status: 3
     staged: 0

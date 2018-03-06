@@ -7,10 +7,13 @@ public class CanvasController : MonoBehaviour {
 	public Text intro;
 	public Text health;
 	public Text ammo;
+	public Text loser;
 
 	// Use this for initialization
 	void Start () {
 		Invoke("removeIntroText", 1);
+
+		// loser.gameObject.SetActive(false);
     }
 
     void removeIntroText() {

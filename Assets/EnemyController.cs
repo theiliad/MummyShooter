@@ -32,7 +32,7 @@ public class EnemyController : MonoBehaviour {
 			anim.SetBool("HitPlayer", true);
 
 			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
-			weaponController.playerHealth = weaponController.playerHealth - 0.0005;
+			weaponController.playerHealth = weaponController.playerHealth - 0.05;
 		}
     }
 
