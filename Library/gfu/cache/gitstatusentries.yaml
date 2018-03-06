@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T17:45:55.2158490-05:00
-  lastVerifiedAtString: 2018-03-05T17:45:56.9384880-05:00
-  initializedAtString: 2018-03-05T15:07:06.9314700-05:00
+  lastUpdatedAtString: 2018-03-05T19:52:30.4565130-05:00
+  lastVerifiedAtString: 2018-03-05T19:52:31.2689620-05:00
+  initializedAtString: 2018-03-05T18:58:06.4266470-05:00
   entries:
   - path: Assets/MummyShooter.unity
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
@@ -27,29 +27,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/mainProfile.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/mainProfile.asset
-    projectPath: Assets/mainProfile.asset
+  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CurrentMaximizeLayout.dwlt
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/CurrentMaximizeLayout.dwlt
-    projectPath: Library/CurrentMaximizeLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
@@ -87,39 +69,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/00/00000000000000004100000000000000
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000004100000000000000
+    projectPath: Library/metadata/00/00000000000000004100000000000000
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
     originalPath: 
     status: 3
-    staged: 0
-  - path: Assets/Chibi Mummy/mummy_rig (2).prefab
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Chibi Mummy/mummy_rig (2).prefab
-    projectPath: Assets/Chibi Mummy/mummy_rig (2).prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Chibi Mummy/mummy_rig (2).prefab.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Chibi Mummy/mummy_rig (2).prefab.meta
-    projectPath: Assets/Chibi Mummy/mummy_rig (2).prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/MummyShooter.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.meta
-    projectPath: Assets/MummyShooter.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/MummyShooter/NavMesh.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter/NavMesh.asset
-    projectPath: Assets/MummyShooter/NavMesh.asset
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/MummyShooter/NavMesh.asset.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter/NavMesh.asset.meta
-    projectPath: Assets/MummyShooter/NavMesh.asset.meta
-    originalPath: 
-    status: 1
     staged: 0

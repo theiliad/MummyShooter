@@ -8,12 +8,12 @@ public class HealthController : MonoBehaviour {
 	public Transform target;
 
 	void Start() {
-		anim = GetComponent<Animator>();
+		anim = GetComponentInParent<Animator>();
     }
 
 	void Update(){
-		if (health > 0 ) GetComponent<UnityEngine.AI.NavMeshAgent>().destination = target.position;
-		else GetComponent<UnityEngine.AI.NavMeshAgent>().destination = GetComponent<UnityEngine.AI.NavMeshAgent>().transform.position;
+		if (health > 0 ) GetComponentInParent<UnityEngine.AI.NavMeshAgent>().destination = target.position;
+		else GetComponentInParent<UnityEngine.AI.NavMeshAgent>().destination = GetComponentInParent<UnityEngine.AI.NavMeshAgent>().transform.position;
 	}
 
 	public void ApplyDamage(float damage) {
