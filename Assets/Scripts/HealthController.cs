@@ -1,14 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour {
 	private Animator anim;
 	[SerializeField] private float health = 100f;
 	public Transform target;
 
+	private Text mummiesText;
+
 	void Start() {
 		anim = GetComponentInParent<Animator>();
+		mummiesText = GameObject.Find("Mummies").GetComponent<Text>();
     }
 
 	void Update(){
@@ -26,6 +32,9 @@ public class HealthController : MonoBehaviour {
 			if (health <= 0) {
 				anim.SetBool("HitPlayer", false);
 				anim.CrossFadeInFixedTime("die02", 0.1f);
+
+				String resultString = Regex.Match(mummiesText.text, @"\d+").Value;
+        		mummiesText.text = "Mummmies: " + (Int32.Parse(resultString) - 1);
 				
 				Destroy(gameObject, 5);
 			}

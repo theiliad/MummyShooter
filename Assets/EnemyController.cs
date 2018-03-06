@@ -19,6 +19,9 @@ public class EnemyController : MonoBehaviour {
 			Debug.Log("COLLIDED With Camera");
 
 			anim.SetBool("HitPlayer", true);
+
+			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
+			weaponController.playerHealth = weaponController.playerHealth - 1;
 		}
     }
 
@@ -27,6 +30,9 @@ public class EnemyController : MonoBehaviour {
 			Debug.Log("COLLIDEDSTAYED*** With Camera");
 
 			anim.SetBool("HitPlayer", true);
+
+			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
+			weaponController.playerHealth = weaponController.playerHealth - 0.0005;
 		}
     }
 

@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,21 +34,31 @@ public class Weapon : MonoBehaviour {
     
     private bool _devMode = true;
 
+    private Text healthText;
     private Text ammoText;
+    private Text mummiesText;
+
+    public double playerHealth = 100;
+    public double oldHealth = 100;
 
     void spawnMummy() {
-        Vector3 randomPos = new Vector3(Random.Range(0.0f, 30.0f), 0, Random.Range(0.0f, 30.0f));
+        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
         Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
+
+        String resultString = Regex.Match(mummiesText.text, @"\d+").Value;
+        mummiesText.text = "Mummmies: " + (Int32.Parse(resultString) + 1);
     }
     
     void Start() {
         anim = GetComponent<Animator>();
+        healthText = GameObject.Find("Health").GetComponent<Text>();
         ammoText = GameObject.Find("Ammo").GetComponent<Text>();
+        mummiesText = GameObject.Find("Mummies").GetComponent<Text>();
 
         for (int i = 1; i <= 5; i++) {
             spawnMummy();
         }
-        Invoke("spawnMummy", 1);
+        InvokeRepeating("spawnMummy", 5.0f, 5.0f);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {
@@ -88,6 +100,21 @@ public class Weapon : MonoBehaviour {
 
         if (fireTimer < fireRate) {
             fireTimer += Time.deltaTime;
+        }
+
+        if (oldHealth != playerHealth) {
+            healthText.text = "Health: " + Math.Round(playerHealth, 2);
+            oldHealth = playerHealth;
+        }
+
+        if (playerHealth < 81) {
+            if (playerHealth >= 70) {
+                healthText.color = new Color(1f, 0.5f, 0.8f);
+            } else if (playerHealth >= 40) {
+                healthText.color = new Color(1f, 0.56f, 0f);
+            } else {
+                healthText.color = new Color(1f, 0, 0);
+            }
         }
     }
 
