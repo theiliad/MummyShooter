@@ -24,7 +24,9 @@ public class HealthController : MonoBehaviour {
 			health -= damage;
 
 			if (health <= 0) {
+				anim.SetBool("HitPlayer", false);
 				anim.CrossFadeInFixedTime("die02", 0.1f);
+				
 				Destroy(gameObject, 5);
 			}
 		}

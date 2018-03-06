@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\Chibi Mummy\Misc\Scripts\buttonControl_script.cs" />
      <Compile Include="Assets\Chibi Mummy\Misc\Scripts\CharMovement.cs" />
+     <Compile Include="Assets\EnemyController.cs" />
      <Compile Include="Assets\Mummy\C#\Axe.cs" />
      <Compile Include="Assets\Mummy\C#\BaseAnimController.cs" />
      <Compile Include="Assets\Mummy\C#\CameraController.cs" />
