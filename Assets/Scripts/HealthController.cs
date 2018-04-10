@@ -23,7 +23,7 @@ public class HealthController : MonoBehaviour {
 	}
 
 	public void ApplyDamage(float damage) {
-		Debug.Log("GOT HIT: " + damage);
+		// Debug.Log("GOT HIT: " + damage);
 
 		if (health > 0) {
 			anim.CrossFadeInFixedTime("takeDamage", 0.1f);

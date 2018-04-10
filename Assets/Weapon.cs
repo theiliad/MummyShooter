@@ -48,6 +48,8 @@ public class Weapon : MonoBehaviour {
     public int numOfMummies = 1;
 
     private GameObject originalMummy;
+    private GameObject originalAmmoObject;
+    private GameObject originalHealthObject;
 
     void spawnMummy() {
         Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
@@ -65,17 +67,26 @@ public class Weapon : MonoBehaviour {
     void spawnAmmoAndHealth() {
         Vector3 ammoPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
         Vector3 healthPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
-        GameObject ammoObject = Instantiate(GameObject.Find("AMMO_FBX"), ammoPos, Quaternion.identity);
-        GameObject healthObject = Instantiate(GameObject.Find("HP_FBX"), healthPos, Quaternion.identity);
 
-        ammoObject.transform.Rotate(-90, 0, 180);
-        healthObject.transform.Rotate(-90, 0, 180);
+        originalAmmoObject.SetActive(true);
+        if (originalAmmoObject != null) {
+            GameObject newAmmoObject = Instantiate(originalAmmoObject, ammoPos, Quaternion.identity);
 
-        Rigidbody ammoRigid = ammoObject.GetComponent<Rigidbody>();
-        Rigidbody healthRigid = healthObject.GetComponent<Rigidbody>();
+            newAmmoObject.transform.Rotate(-90, 0, 180);
+            Rigidbody ammoRigid = newAmmoObject.GetComponent<Rigidbody>();
+            ammoRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+        }
+        originalAmmoObject.SetActive(false);
+        
+        originalHealthObject.SetActive(true);
+        if (originalHealthObject != null) {
+            GameObject newHealthObject = Instantiate(originalHealthObject, healthPos, Quaternion.identity);
+            newHealthObject.transform.Rotate(-90, 0, 180);
 
-        ammoRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
-        healthRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+            Rigidbody healthRigid = newHealthObject.GetComponent<Rigidbody>();            
+            healthRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+        }
+        originalHealthObject.SetActive(false);
     }
     
     void Start() {
@@ -92,6 +103,12 @@ public class Weapon : MonoBehaviour {
         originalMummy = GameObject.Find("mummy_rig");
         originalMummy.SetActive(false);
 
+        originalAmmoObject = GameObject.Find("AMMO_FBX");
+        originalAmmoObject.SetActive(false);
+
+        originalHealthObject = GameObject.Find("HP_FBX");
+        originalHealthObject.SetActive(false);
+
         for (int i = 0; i < 5; i++) {
             spawnMummy();
 
@@ -99,7 +116,7 @@ public class Weapon : MonoBehaviour {
                 spawnAmmoAndHealth();
         }
         InvokeRepeating("spawnMummy", 5.0f, 5.0f);
-        InvokeRepeating("spawnAmmoAndHealth", 30.0f, 30.0f);
+        InvokeRepeating("spawnAmmoAndHealth", 12.0f, 12.0f);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {

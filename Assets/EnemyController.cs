@@ -16,23 +16,33 @@ public class EnemyController : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.tag == "MainCamera") {
-			Debug.Log("COLLIDED With Camera");
+			// Debug.Log("COLLIDED With Camera");
 
 			anim.SetBool("HitPlayer", true);
 
 			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
-			weaponController.playerHealth = weaponController.playerHealth - 5;
+			if (weaponController.playerHealth > 0) {
+				if (weaponController.playerHealth - 5 < 0)
+					weaponController.playerHealth = 0;
+				else
+					weaponController.playerHealth = weaponController.playerHealth - 5;
+			}
 		}
     }
 
 	void OnCollisionStay(Collision collision) {
         if (collision.gameObject.tag == "MainCamera") {
-			Debug.Log("COLLIDEDSTAYED*** With Camera");
+			// Debug.Log("COLLIDEDSTAYED*** With Camera");
 
 			anim.SetBool("HitPlayer", true);
 
 			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
-			weaponController.playerHealth = weaponController.playerHealth - 0.3;
+			if (weaponController.playerHealth > 0) {
+				if (weaponController.playerHealth - 0.3 < 0)
+					weaponController.playerHealth = 0;
+				else
+					weaponController.playerHealth = weaponController.playerHealth - 0.3;
+			}
 		}
     }
 

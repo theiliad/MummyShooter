@@ -16,7 +16,7 @@ public class perks : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.tag == "MainCamera") {
-			Debug.Log("PERK*** - COLLIDED With Camera");
+			// Debug.Log("PERK*** - COLLIDED With Camera");
 
 			Destroy(gameObject);
 
