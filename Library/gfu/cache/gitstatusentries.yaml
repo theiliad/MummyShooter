@@ -11,16 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-04-09T23:25:06.1837200-04:00
-  lastVerifiedAtString: 2018-04-09T23:25:40.2643670-04:00
+  lastUpdatedAtString: 2018-04-09T23:35:25.9746520-04:00
+  lastVerifiedAtString: 2018-04-09T23:35:26.7821610-04:00
   initializedAtString: 2018-04-09T20:02:43.0110350-04:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/Shared/Unity/MummyShooter/Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/MummyShooter.unity
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
     projectPath: Assets/MummyShooter.unity
@@ -30,6 +24,12 @@ MonoBehaviour:
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/perks.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/perks.cs
+    projectPath: Assets/perks.cs
     originalPath: 
     status: 3
     staged: 0
@@ -87,21 +87,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/00/00000000000000003000000000000000
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000003000000000000000
+    projectPath: Library/metadata/00/00000000000000003000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/metadata/13/13379dba45b784add9525984ed256a74
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/perks.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/perks.cs
-    projectPath: Assets/perks.cs
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/perks.cs.meta
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/perks.cs.meta
-    projectPath: Assets/perks.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0

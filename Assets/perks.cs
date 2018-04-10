@@ -19,6 +19,13 @@ public class perks : MonoBehaviour {
 			Debug.Log("PERK*** - COLLIDED With Camera");
 
 			Destroy(gameObject);
+
+			Weapon weaponController = collision.gameObject.GetComponentInChildren<Weapon>();
+			if (gameObject.tag == "PerkHealth") {
+				weaponController.playerHealth = 100f;
+			} else if (gameObject.tag == "PerkAmmo") {
+				weaponController.playerHealth = weaponController.playerHealth - 5;
+			}
 		}
     }
 }

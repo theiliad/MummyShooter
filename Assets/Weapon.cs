@@ -34,7 +34,7 @@ public class Weapon : MonoBehaviour {
     
     private bool _devMode = false;
 
-    private Text healthText;
+    public Text healthText;
     private Text ammoText;
     private Text mummiesText;
     private Text loserText;
@@ -56,9 +56,10 @@ public class Weapon : MonoBehaviour {
     }
 
     void spawnAmmoAndHealth() {
-        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
-        GameObject ammoObject = Instantiate(GameObject.Find("AMMO_FBX"), randomPos, Quaternion.identity);
-        GameObject healthObject = Instantiate(GameObject.Find("HP_FBX"), randomPos, Quaternion.identity);
+        Vector3 ammoPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
+        Vector3 healthPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
+        GameObject ammoObject = Instantiate(GameObject.Find("AMMO_FBX"), ammoPos, Quaternion.identity);
+        GameObject healthObject = Instantiate(GameObject.Find("HP_FBX"), healthPos, Quaternion.identity);
 
         ammoObject.transform.Rotate(-90, 0, 180);
         healthObject.transform.Rotate(-90, 0, 180);
@@ -145,6 +146,10 @@ public class Weapon : MonoBehaviour {
             } else {
                 healthText.color = new Color(1f, 0, 0);
             }
+        }
+
+        if (playerHealth > 81) {
+            healthText.color = new Color(1f, 0.5f, 0.8f);
         }
 
         if (playerHealth <= 0) {
