@@ -52,6 +52,12 @@ public class Weapon : MonoBehaviour {
         numOfMummies++;
         mummiesText.text = "Mummmies: " + numOfMummies;        
     }
+
+    void spawnAmmoAndHealth() {
+        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
+        Instantiate(GameObject.Find("AMMO_FBX"), randomPos, Quaternion.identity);
+        Instantiate(GameObject.Find("HP_FBX"), randomPos, Quaternion.identity);
+    }
     
     void Start() {
         anim = GetComponent<Animator>();
@@ -66,8 +72,12 @@ public class Weapon : MonoBehaviour {
 
         for (int i = 0; i < 5; i++) {
             spawnMummy();
+
+            if (i < 4)
+            spawnAmmoAndHealth();
         }
         InvokeRepeating("spawnMummy", 5.0f, 5.0f);
+        InvokeRepeating("spawnAmmoAndHealth", 1.0f, 1.0f);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {
@@ -112,7 +122,7 @@ public class Weapon : MonoBehaviour {
         }
 
         if (oldHealth != playerHealth) {
-            healthText.text = "Health: " + Math.Round(playerHealth, 2);
+            healthText.text = "Health: " + (int) Math.Round(playerHealth, 2);
             oldHealth = playerHealth;
         }
 

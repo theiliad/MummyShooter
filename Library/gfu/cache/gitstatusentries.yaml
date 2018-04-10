@@ -11,22 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T22:38:32.9696790-05:00
-  lastVerifiedAtString: 2018-03-05T22:38:32.9783050-05:00
-  initializedAtString: 2018-03-05T22:24:32.2601750-05:00
+  lastUpdatedAtString: 2018-04-09T20:58:34.6991910-04:00
+  lastVerifiedAtString: 2018-04-09T21:01:06.6137350-04:00
+  initializedAtString: 2018-04-09T20:02:43.0110350-04:00
   entries:
-  - path: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
-    projectPath: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/CanvasController.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
-    projectPath: Assets/CanvasController.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/EnemyController.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/EnemyController.cs
     projectPath: Assets/EnemyController.cs
@@ -39,15 +27,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/HealthController.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Scripts/HealthController.cs
-    projectPath: Assets/Scripts/HealthController.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -57,9 +45,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
+  - path: Library/EditorUserBuildSettings.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
     originalPath: 
     status: 3
     staged: 0
@@ -75,9 +63,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/ShaderCache.db
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/expandedItems
+    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -111,9 +111,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
-    projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+  - path: Library/metadata/00/00000000000000004000000000000000
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000004000000000000000
+    projectPath: Library/metadata/00/00000000000000004000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/00/00000000000000006100000000000000
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000006100000000000000
+    projectPath: Library/metadata/00/00000000000000006100000000000000
     originalPath: 
     status: 3
     staged: 0
@@ -123,9 +129,189 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+  - path: Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/GraphicsSettings.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/ProjectSettings/GraphicsSettings.asset
+    projectPath: ProjectSettings/GraphicsSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Simple Box Pack.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack.meta
+    projectPath: Assets/Simple Box Pack.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes.meta
+    projectPath: Assets/Simple Box Pack/Meshes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX
+    projectPath: Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX.meta
+    projectPath: Assets/Simple Box Pack/Meshes/AMMO_FBX.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX
+    projectPath: Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX.meta
+    projectPath: Assets/Simple Box Pack/Meshes/Cargo_FBX.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/HP_FBX.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/HP_FBX.FBX
+    projectPath: Assets/Simple Box Pack/Meshes/HP_FBX.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/HP_FBX.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/HP_FBX.FBX.meta
+    projectPath: Assets/Simple Box Pack/Meshes/HP_FBX.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials.meta
+    projectPath: Assets/Simple Box Pack/Meshes/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08 - Default.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08
+      - Default.mat
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08 - Default.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08 - Default.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08
+      - Default.mat.meta
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/AMMO_FBX-08 - Default.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07 - Default.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07
+      - Default.mat
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07 - Default.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07 - Default.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07
+      - Default.mat.meta
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/Cargo_FBX-07 - Default.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03 - Default#1.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03
+      - Default#1.mat
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03 - Default#1.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03 - Default#1.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03
+      - Default#1.mat.meta
+    projectPath: Assets/Simple Box Pack/Meshes/Materials/HP_FBX-03 - Default#1.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures.meta
+    projectPath: Assets/Simple Box Pack/Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/Ammo_DEF.tga
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/Ammo_DEF.tga
+    projectPath: Assets/Simple Box Pack/Textures/Ammo_DEF.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/Ammo_DEF.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/Ammo_DEF.tga.meta
+    projectPath: Assets/Simple Box Pack/Textures/Ammo_DEF.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/Cargo_DEF.tga
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/Cargo_DEF.tga
+    projectPath: Assets/Simple Box Pack/Textures/Cargo_DEF.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/Cargo_DEF.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/Cargo_DEF.tga.meta
+    projectPath: Assets/Simple Box Pack/Textures/Cargo_DEF.tga.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/HP_DEF.tga
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/HP_DEF.tga
+    projectPath: Assets/Simple Box Pack/Textures/HP_DEF.tga
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Simple Box Pack/Textures/HP_DEF.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Simple Box Pack/Textures/HP_DEF.tga.meta
+    projectPath: Assets/Simple Box Pack/Textures/HP_DEF.tga.meta
+    originalPath: 
+    status: 1
     staged: 0

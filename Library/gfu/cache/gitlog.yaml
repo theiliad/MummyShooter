@@ -11,10 +11,137 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-05T22:38:42.3270740-05:00
-  lastVerifiedAtString: 2018-03-05T22:38:42.3270740-05:00
-  initializedAtString: 2018-03-05T22:24:31.7096510-05:00
+  lastUpdatedAtString: 2018-04-09T20:57:34.5649350-04:00
+  lastVerifiedAtString: 2018-04-09T20:57:34.5649350-04:00
+  initializedAtString: 2018-04-09T20:02:42.6784260-04:00
   log:
+  - commitID: 72b0d6917f6b90bf479e7c9b78afbd854ba68f77
+    mergeA: 
+    mergeB: 
+    authorName: The Iliad
+    authorEmail: iliadmoosavi@gmail.com
+    commitEmail: iliadmoosavi@gmail.com
+    commitName: The Iliad
+    summary: Assignment 2 version
+    description: Assignment 2 version
+    timeString: 2018-03-05T22:39:14.0000000-05:00
+    commitTimeString: 2018-03-05T22:39:14.0000000-05:00
+    changes:
+    - path: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/3rd Party Assets/Animator
+        Controllers/ChibiMummies.controller
+      projectPath: Assets/3rd Party Assets/Animator Controllers/ChibiMummies.controller
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/CanvasController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/CanvasController.cs
+      projectPath: Assets/CanvasController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/EnemyController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/EnemyController.cs
+      projectPath: Assets/EnemyController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/MummyShooter.unity
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
+      projectPath: Assets/MummyShooter.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/HealthController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Scripts/HealthController.cs
+      projectPath: Assets/Scripts/HealthController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Weapon.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
+      projectPath: Assets/Weapon.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+      projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 3c606ba28a9d263c3cd26f2603e869d70a052f27
     mergeA: 
     mergeB: 
