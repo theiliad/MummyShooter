@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour {
     public float range = 2000f;
     public int bulletsPerLoad = 30;
     public int numOfBullets;
+    public int numOfbulletPacks = 3;
     public float fireRate = 0.1f;
     public float damageAmount = 10f;
     float fireTimer;
@@ -121,10 +122,10 @@ public class Weapon : MonoBehaviour {
         if (Input.GetButton("Fire1")) {
             if (numOfBullets > 0)
                 _fire();
-            else
+            else if (numOfbulletPacks > 0)
                 _reloadAnimation();
         } else if (Input.GetKeyDown(KeyCode.R)) {
-            if (numOfBullets < bulletsPerLoad) {
+            if (numOfBullets < bulletsPerLoad && numOfbulletPacks > 0) {
                 _reloadAnimation();
             }
         }
@@ -134,7 +135,7 @@ public class Weapon : MonoBehaviour {
         }
 
         if (oldHealth != playerHealth) {
-            healthText.text = "Health: " + (int) Math.Round(playerHealth, 2);
+            healthText.text = "Health: " + (int) Math.Round(playerHealth, 2) + "%";
             oldHealth = playerHealth;
         }
 
@@ -197,7 +198,7 @@ public class Weapon : MonoBehaviour {
         // anim.SetBool("Fire", true);
 
         numOfBullets--;
-        ammoText.text = "Ammo (" + numOfBullets + "/∞)";
+        ammoText.text = "Ammo (" + numOfBullets + "/" + numOfbulletPacks * bulletsPerLoad + ")";
         fireTimer = 0.0f;
     }
 
@@ -207,8 +208,11 @@ public class Weapon : MonoBehaviour {
     }
 
     public void reload() {
+        if (numOfbulletPacks == 0) return;
         numOfBullets = bulletsPerLoad;
-        ammoText.text = "Ammo (" + numOfBullets + "/∞)";
+        numOfbulletPacks--;
+
+        ammoText.text = "Ammo (" + numOfBullets + "/" + numOfbulletPacks * bulletsPerLoad  + ")";
     }
 
     private void _playFireSound() {

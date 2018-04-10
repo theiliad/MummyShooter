@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-04-09T23:35:25.9746520-04:00
-  lastVerifiedAtString: 2018-04-09T23:35:26.7821610-04:00
-  initializedAtString: 2018-04-09T20:02:43.0110350-04:00
+  lastUpdatedAtString: 2018-04-09T23:53:31.5279250-04:00
+  lastVerifiedAtString: 2018-04-09T23:56:28.5975950-04:00
+  initializedAtString: 2018-04-09T23:53:31.5279250-04:00
   entries:
   - path: Assets/MummyShooter.unity
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
@@ -33,9 +33,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
+  - path: Library/EditorInstance.json
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -87,21 +87,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/00/00000000000000003000000000000000
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/00/00000000000000003000000000000000
-    projectPath: Library/metadata/00/00000000000000003000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/metadata/13/13379dba45b784add9525984ed256a74
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: ProjectSettings/TagManager.asset
-    fullPath: /Users/Shared/Unity/MummyShooter/ProjectSettings/TagManager.asset
-    projectPath: ProjectSettings/TagManager.asset
     originalPath: 
     status: 3
     staged: 0

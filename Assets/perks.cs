@@ -24,7 +24,7 @@ public class perks : MonoBehaviour {
 			if (gameObject.tag == "PerkHealth") {
 				weaponController.playerHealth = 100f;
 			} else if (gameObject.tag == "PerkAmmo") {
-				weaponController.playerHealth = weaponController.playerHealth - 5;
+				weaponController.numOfbulletPacks++;
 			}
 		}
     }

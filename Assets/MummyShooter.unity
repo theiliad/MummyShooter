@@ -195,7 +195,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ammo (30/\u221E)"
+  m_Text: Ammo (30/60)
 --- !u!222 &63653807
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -437,6 +437,7 @@ MonoBehaviour:
   range: 100
   bulletsPerLoad: 30
   numOfBullets: 0
+  numOfbulletPacks: 3
   fireRate: 0.1
   damageAmount: 20
   shootPoint: {fileID: 326936489}
@@ -448,6 +449,7 @@ MonoBehaviour:
   fireSound: {fileID: 8300000, guid: d825bf40ab4ed4f138fca613e2105c9f, type: 3}
   backgroundMusic: {fileID: 8300000, guid: e8c91ce9c85484f30b5871ca9f873b6c, type: 3}
   crosshairTexture: {fileID: 2800000, guid: 522e2eec793857746ad0f1fa3fa2767b, type: 3}
+  healthText: {fileID: 0}
   playerHealth: 100
   oldHealth: 100
   numOfMummies: 0
