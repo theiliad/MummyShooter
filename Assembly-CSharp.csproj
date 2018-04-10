@@ -63,6 +63,7 @@
      <Compile Include="Assets\Mummy\C#\Spear_Shield.cs" />
      <Compile Include="Assets\Mummy\C#\Sword_Shield.cs" />
      <Compile Include="Assets\Mummy\C#\Weaponless.cs" />
+     <Compile Include="Assets\perks.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />

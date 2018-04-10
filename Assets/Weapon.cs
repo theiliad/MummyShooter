@@ -47,16 +47,27 @@ public class Weapon : MonoBehaviour {
 
     void spawnMummy() {
         Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
-        Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
+        if (GameObject.Find("mummy_rig") != null) {
+            Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
 
-        numOfMummies++;
-        mummiesText.text = "Mummmies: " + numOfMummies;        
+            numOfMummies++;
+            mummiesText.text = "Mummmies: " + numOfMummies;
+        }    
     }
 
     void spawnAmmoAndHealth() {
-        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
-        Instantiate(GameObject.Find("AMMO_FBX"), randomPos, Quaternion.identity);
-        Instantiate(GameObject.Find("HP_FBX"), randomPos, Quaternion.identity);
+        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0.167324f, UnityEngine.Random.Range(0.0f, 90.0f));
+        GameObject ammoObject = Instantiate(GameObject.Find("AMMO_FBX"), randomPos, Quaternion.identity);
+        GameObject healthObject = Instantiate(GameObject.Find("HP_FBX"), randomPos, Quaternion.identity);
+
+        ammoObject.transform.Rotate(-90, 0, 180);
+        healthObject.transform.Rotate(-90, 0, 180);
+
+        Rigidbody ammoRigid = ammoObject.GetComponent<Rigidbody>();
+        Rigidbody healthRigid = healthObject.GetComponent<Rigidbody>();
+
+        ammoRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+        healthRigid.constraints = RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
     }
     
     void Start() {
