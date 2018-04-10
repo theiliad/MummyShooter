@@ -14,6 +14,7 @@ public class Weapon : MonoBehaviour {
     public float range = 2000f;
     public int bulletsPerLoad = 30;
     public int numOfBullets;
+    public int oldNumOfbulletPacks = 3;
     public int numOfbulletPacks = 3;
     public float fireRate = 0.1f;
     public float damageAmount = 10f;
@@ -137,6 +138,11 @@ public class Weapon : MonoBehaviour {
         if (oldHealth != playerHealth) {
             healthText.text = "Health: " + (int) Math.Round(playerHealth, 2) + "%";
             oldHealth = playerHealth;
+        }
+
+        if (oldNumOfbulletPacks != numOfbulletPacks) {
+            ammoText.text = "Ammo (" + numOfBullets + "/" + numOfbulletPacks * bulletsPerLoad + ")";
+            oldNumOfbulletPacks = numOfbulletPacks;
         }
 
         if (playerHealth > 0 && playerHealth < 81) {
