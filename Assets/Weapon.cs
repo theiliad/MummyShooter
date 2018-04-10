@@ -6,6 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Weapon : MonoBehaviour {
+	[Header("Red BG Config")]
+	public Texture redTexture;
+
     private Animator anim;
 
     public AudioSource[] _AudioSources;
@@ -50,6 +53,8 @@ public class Weapon : MonoBehaviour {
     private GameObject originalMummy;
     private GameObject originalAmmoObject;
     private GameObject originalHealthObject;
+
+    private bool beingHit = false;
 
     void spawnMummy() {
         Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
@@ -112,11 +117,11 @@ public class Weapon : MonoBehaviour {
         for (int i = 0; i < 5; i++) {
             spawnMummy();
 
-            if (i < 3)
+            if (i < 4)
                 spawnAmmoAndHealth();
         }
         InvokeRepeating("spawnMummy", 5.0f, 5.0f);
-        InvokeRepeating("spawnAmmoAndHealth", 12.0f, 12.0f);
+        InvokeRepeating("spawnAmmoAndHealth", 7.0f, 7.0f);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {
@@ -135,6 +140,13 @@ public class Weapon : MonoBehaviour {
 
     void OnGUI() {
         GUI.DrawTexture(position, crosshairTexture);
+
+        if (beingHit) {
+            float fAlpha = 0.2f;
+            Color colPreviousGUIColor = GUI.color;
+            GUI.color = new Color(colPreviousGUIColor.r, colPreviousGUIColor.g, colPreviousGUIColor.b, fAlpha);
+            GUI.DrawTexture(new Rect(0, 0, UnityEngine.Screen.width, UnityEngine.Screen.height), redTexture);
+        }
     }
 
     void FixedUpdate() {
@@ -142,6 +154,10 @@ public class Weapon : MonoBehaviour {
         if (info.IsName("Fire")) anim.SetBool("Fire", false);
 
         isReloading = info.IsName("Reload");
+    }
+
+    void _disableBeingHit() {
+        beingHit = false;
     }
 
     void Update() {
@@ -163,6 +179,10 @@ public class Weapon : MonoBehaviour {
         if (oldHealth != playerHealth) {
             healthText.text = "Health: " + (int) Math.Round(playerHealth, 2) + "%";
             oldHealth = playerHealth;
+
+            beingHit = true;
+
+            Invoke("_disableBeingHit", 0.3f);
         }
 
         if (oldNumOfbulletPacks != numOfbulletPacks) {

@@ -11,10 +11,106 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-04-10T02:09:19.4520630-04:00
-  lastVerifiedAtString: 2018-04-10T02:09:19.4520630-04:00
+  lastUpdatedAtString: 2018-04-10T02:47:45.5388520-04:00
+  lastVerifiedAtString: 2018-04-10T02:47:45.5388520-04:00
   initializedAtString: 2018-04-09T23:53:24.3142040-04:00
   log:
+  - commitID: 673d94e5bc3ffd47e1299bed409d503295f56e77
+    mergeA: 
+    mergeB: 
+    authorName: The Iliad
+    authorEmail: iliadmoosavi@gmail.com
+    commitEmail: iliadmoosavi@gmail.com
+    commitName: The Iliad
+    summary: Stop health at 0
+    description: Stop health at 0
+    timeString: 2018-04-10T02:10:21.0000000-04:00
+    commitTimeString: 2018-04-10T02:10:21.0000000-04:00
+    changes:
+    - path: Assets/EnemyController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/EnemyController.cs
+      projectPath: Assets/EnemyController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/HealthController.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Scripts/HealthController.cs
+      projectPath: Assets/Scripts/HealthController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Weapon.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
+      projectPath: Assets/Weapon.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/perks.cs
+      fullPath: /Users/Shared/Unity/MummyShooter/Assets/perks.cs
+      projectPath: Assets/perks.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+      fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+      projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 3e927c41fe79693da364ef7f37f900b843b49bc2
     mergeA: 
     mergeB: 

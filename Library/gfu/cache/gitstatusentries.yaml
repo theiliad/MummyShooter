@@ -11,19 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-04-10T02:08:56.4846140-04:00
-  lastVerifiedAtString: 2018-04-10T02:08:56.5157650-04:00
+  lastUpdatedAtString: 2018-04-10T02:47:34.3992070-04:00
+  lastVerifiedAtString: 2018-04-10T02:47:34.4319770-04:00
   initializedAtString: 2018-04-09T23:53:31.5279250-04:00
   entries:
-  - path: Assets/EnemyController.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EnemyController.cs
-    projectPath: Assets/EnemyController.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/HealthController.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/Scripts/HealthController.cs
-    projectPath: Assets/Scripts/HealthController.cs
+  - path: Assets/MummyShooter.unity
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
+    projectPath: Assets/MummyShooter.unity
     originalPath: 
     status: 3
     staged: 0
@@ -33,9 +27,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/perks.cs
-    fullPath: /Users/Shared/Unity/MummyShooter/Assets/perks.cs
-    projectPath: Assets/perks.cs
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
@@ -87,15 +81,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
-    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
-    projectPath: Library/metadata/05/050a43bc3c4c7463cbf104f8d0abf3e0
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/metadata/13/13379dba45b784add9525984ed256a74
     fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
     projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets/New Custom Render Texture.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/New Custom Render Texture.asset
+    projectPath: Assets/New Custom Render Texture.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/New Custom Render Texture.asset.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/New Custom Render Texture.asset.meta
+    projectPath: Assets/New Custom Render Texture.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/red.png
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/red.png
+    projectPath: Assets/red.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/red.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/red.png.meta
+    projectPath: Assets/red.png.meta
+    originalPath: 
+    status: 1
     staged: 0
