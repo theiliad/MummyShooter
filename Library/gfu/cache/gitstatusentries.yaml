@@ -11,13 +11,3819 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 66da555d9ce961d448d026ba0354ee79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-04-09T23:57:58.4833290-04:00
-  lastVerifiedAtString: 2018-04-09T23:57:58.4869190-04:00
+  lastUpdatedAtString: 2018-04-10T01:31:38.0856350-04:00
+  lastVerifiedAtString: 2018-04-10T01:31:38.1481580-04:00
   initializedAtString: 2018-04-09T23:53:31.5279250-04:00
   entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: /Users/Shared/Unity/MummyShooter/Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/MummyShooter.unity
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/MummyShooter.unity
+    projectPath: Assets/MummyShooter.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources.meta
+    projectPath: Assets/PostProcessing/Editor Resources.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/HistogramRender.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/ParadeRender.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/VectorscopeRender.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/Monitors/WaveformRender.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI.meta
+    projectPath: Assets/PostProcessing/Editor Resources/UI.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader
+    projectPath: Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/UI/CurveBackground.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png.meta
+    projectPath: Assets/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI/Trackball.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI/Trackball.shader
+    projectPath: Assets/PostProcessing/Editor Resources/UI/Trackball.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor Resources/UI/Trackball.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor Resources/UI/Trackball.shader.meta
+    projectPath: Assets/PostProcessing/Editor Resources/UI/Trackball.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor.meta
+    projectPath: Assets/PostProcessing/Editor.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Attributes.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Attributes.meta
+    projectPath: Assets/PostProcessing/Editor/Attributes.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs
+    projectPath: Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models.meta
+    projectPath: Assets/PostProcessing/Editor/Models.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/BloomModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/BloomModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/BloomModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/BloomModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/BloomModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/BloomModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/FogModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/FogModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/FogModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/FogModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/FogModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/FogModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/GrainModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/GrainModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/GrainModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/GrainModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/GrainModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/GrainModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors.meta
+    projectPath: Assets/PostProcessing/Editor/Monitors.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs
+    projectPath: Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs
+    projectPath: Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs
+    projectPath: Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs
+    projectPath: Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs
+    projectPath: Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingFactory.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingFactory.cs
+    projectPath: Assets/PostProcessing/Editor/PostProcessingFactory.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingFactory.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingFactory.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PostProcessingFactory.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingInspector.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingInspector.cs
+    projectPath: Assets/PostProcessing/Editor/PostProcessingInspector.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingInspector.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingInspector.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PostProcessingInspector.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingModelEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingModelEditor.cs
+    projectPath: Assets/PostProcessing/Editor/PostProcessingModelEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingModelEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingModelEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PostProcessingModelEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingMonitor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingMonitor.cs
+    projectPath: Assets/PostProcessing/Editor/PostProcessingMonitor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PostProcessingMonitor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PostProcessingMonitor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PostProcessingMonitor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers.meta
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs.meta
+    projectPath: Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils.meta
+    projectPath: Assets/PostProcessing/Editor/Utils.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/CurveEditor.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/CurveEditor.cs
+    projectPath: Assets/PostProcessing/Editor/Utils/CurveEditor.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/CurveEditor.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/CurveEditor.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Utils/CurveEditor.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs
+    projectPath: Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/EditorResources.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/EditorResources.cs
+    projectPath: Assets/PostProcessing/Editor/Utils/EditorResources.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/EditorResources.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/EditorResources.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Utils/EditorResources.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/FxStyles.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/FxStyles.cs
+    projectPath: Assets/PostProcessing/Editor/Utils/FxStyles.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/FxStyles.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/FxStyles.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Utils/FxStyles.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs
+    projectPath: Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs.meta
+    projectPath: Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources.meta
+    projectPath: Assets/PostProcessing/Resources.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/COPYING.txt.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_0.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_1.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_1.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_1.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_10.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_10.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_10.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_11.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_11.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_11.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_12.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_12.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_12.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_14.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_14.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_14.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_15.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_15.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_15.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_16.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_16.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_16.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_17.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_17.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_17.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_18.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_18.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_18.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_19.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_19.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_19.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_2.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_20.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_20.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_20.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_21.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_21.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_21.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_22.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_22.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_22.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_23.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_23.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_23.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_24.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_24.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_24.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_25.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_25.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_25.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_26.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_26.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_26.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_27.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_27.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_27.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_28.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_28.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_28.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_29.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_29.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_29.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_3.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_3.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_3.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_30.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_30.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_30.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_31.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_31.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_31.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_32.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_32.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_32.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_33.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_33.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_33.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_34.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_35.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_35.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_35.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_36.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_36.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_36.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_37.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_37.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_37.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_38.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_38.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_38.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_39.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_4.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_4.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_4.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_40.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_40.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_40.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_41.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_41.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_41.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_42.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_43.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_43.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_43.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_44.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_44.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_44.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_45.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_45.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_45.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_46.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_47.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_48.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_48.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_48.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_49.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_49.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_49.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_5.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_5.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_5.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_50.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_50.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_50.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_51.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_51.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_51.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_52.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_52.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_52.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_53.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_53.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_53.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_54.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_54.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_54.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_55.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_55.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_55.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_56.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_56.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_56.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_57.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_57.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_57.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_58.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_58.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_58.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_59.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_59.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_59.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_6.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_6.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_6.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_60.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_61.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_61.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_61.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_62.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_62.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_62.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_63.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_63.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_63.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_8.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_8.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_8.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt.meta
+    projectPath: Assets/PostProcessing/Resources/Bluenoise64/LICENSE.txt.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ACES.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ACES.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/ACES.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ACES.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ACES.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/ACES.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/AmbientOcclusion.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Blit.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Blit.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/Blit.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Blit.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Blit.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Blit.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Bloom.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Bloom.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/Bloom.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Bloom.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Bloom.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Bloom.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Bloom.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Bloom.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/Bloom.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Bloom.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Bloom.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Bloom.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/BuiltinDebugViews.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/ColorGrading.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Common.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Common.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/Common.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Common.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Common.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Common.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/DepthOfField.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DepthOfField.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DepthOfField.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/DepthOfField.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DepthOfField.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DepthOfField.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/DepthOfField.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/DiskKernels.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeAdaptation.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/EyeHistogram.compute.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/FXAA.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/FXAA.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/FXAA.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/FXAA.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/FXAA.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/FXAA.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/FXAA3.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/FXAA3.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/FXAA3.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/FXAA3.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/FXAA3.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/FXAA3.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Fog.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Fog.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/Fog.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Fog.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Fog.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Fog.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/GrainGen.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/GrainGen.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/GrainGen.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/GrainGen.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/GrainGen.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/GrainGen.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/LutGen.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/LutGen.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/LutGen.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/LutGen.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/LutGen.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/LutGen.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/MotionBlur.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/MotionBlur.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/MotionBlur.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/MotionBlur.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/MotionBlur.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/MotionBlur.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/MotionBlur.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/ScreenSpaceRaytrace.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/ScreenSpaceReflection.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/TAA.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/TAA.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/TAA.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/TAA.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/TAA.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/TAA.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/TAA.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/TAA.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/TAA.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/TAA.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/TAA.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/TAA.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Tonemapping.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Uber.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Uber.shader
+    projectPath: Assets/PostProcessing/Resources/Shaders/Uber.shader
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/Uber.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/Uber.shader.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/Uber.shader.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc
+    projectPath: Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc.meta
+    projectPath: Assets/PostProcessing/Resources/Shaders/UberSecondPass.cginc.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime.meta
+    projectPath: Assets/PostProcessing/Runtime.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes.meta
+    projectPath: Assets/PostProcessing/Runtime/Attributes.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+    projectPath: Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs
+    projectPath: Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs
+    projectPath: Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs
+    projectPath: Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components.meta
+    projectPath: Assets/PostProcessing/Runtime/Components.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/BloomComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/BloomComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/BloomComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/BloomComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/BloomComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/BloomComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/DitheringComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/DitheringComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/DitheringComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/DitheringComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/DitheringComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/DitheringComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/FogComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/FogComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/FogComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/FogComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/FogComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/FogComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/FxaaComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/FxaaComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/FxaaComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/FxaaComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/FxaaComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/FxaaComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/GrainComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/GrainComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/GrainComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/GrainComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/GrainComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/GrainComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/TaaComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/TaaComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/TaaComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/TaaComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/TaaComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/TaaComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/UserLutComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/UserLutComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/UserLutComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/UserLutComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/UserLutComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/UserLutComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/VignetteComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/VignetteComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/Components/VignetteComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Components/VignetteComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Components/VignetteComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Components/VignetteComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models.meta
+    projectPath: Assets/PostProcessing/Runtime/Models.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/BloomModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/BloomModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/BloomModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/BloomModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/BloomModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/BloomModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/DitheringModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/DitheringModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/DitheringModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/DitheringModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/DitheringModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/DitheringModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/FogModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/FogModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/FogModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/FogModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/FogModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/FogModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/GrainModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/GrainModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/GrainModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/GrainModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/GrainModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/GrainModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/UserLutModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/UserLutModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/UserLutModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/UserLutModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/UserLutModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/UserLutModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/VignetteModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/VignetteModel.cs
+    projectPath: Assets/PostProcessing/Runtime/Models/VignetteModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Models/VignetteModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Models/VignetteModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Models/VignetteModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingComponent.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingComponent.cs
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingComponent.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingComponent.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingComponent.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingComponent.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingContext.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingContext.cs
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingContext.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingContext.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingContext.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingContext.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingModel.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingModel.cs
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingModel.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingModel.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingModel.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingModel.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingProfile.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingProfile.cs
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingProfile.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/PostProcessingProfile.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/PostProcessingProfile.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/PostProcessingProfile.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils.meta
+    projectPath: Assets/PostProcessing/Runtime/Utils.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+    projectPath: Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs
+    projectPath: Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs
+    projectPath: Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs
+    projectPath: Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs.meta
+    projectPath: Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures.meta
+    projectPath: Assets/PostProcessing/Textures.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/LUTs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/LUTs.meta
+    projectPath: Assets/PostProcessing/Textures/LUTs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/LUTs/NeutralLUT_16.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/LUTs/NeutralLUT_16.png.meta
+    projectPath: Assets/PostProcessing/Textures/LUTs/NeutralLUT_16.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/LUTs/NeutralLUT_32.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/LUTs/NeutralLUT_32.png.meta
+    projectPath: Assets/PostProcessing/Textures/LUTs/NeutralLUT_32.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Lens Dirt.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Lens
+      Dirt.meta
+    projectPath: Assets/PostProcessing/Textures/Lens Dirt.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt00.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Lens
+      Dirt/LensDirt00.png.meta
+    projectPath: Assets/PostProcessing/Textures/Lens Dirt/LensDirt00.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt01.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Lens
+      Dirt/LensDirt01.png.meta
+    projectPath: Assets/PostProcessing/Textures/Lens Dirt/LensDirt01.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt02.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Lens
+      Dirt/LensDirt02.png.meta
+    projectPath: Assets/PostProcessing/Textures/Lens Dirt/LensDirt02.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Lens Dirt/LensDirt03.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Lens
+      Dirt/LensDirt03.png.meta
+    projectPath: Assets/PostProcessing/Textures/Lens Dirt/LensDirt03.png.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Spectral LUTs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Spectral
+      LUTs.meta
+    projectPath: Assets/PostProcessing/Textures/Spectral LUTs.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Spectral
+      LUTs/SpectralLut_BlueRed.tga.meta
+    projectPath: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Spectral
+      LUTs/SpectralLut_GreenPurple.tga.meta
+    projectPath: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Spectral
+      LUTs/SpectralLut_PurpleGreen.tga.meta
+    projectPath: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/PostProcessing/Textures/Spectral
+      LUTs/SpectralLut_RedBlue.tga.meta
+    projectPath: Assets/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga.meta
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assets/Weapon.cs
     fullPath: /Users/Shared/Unity/MummyShooter/Assets/Weapon.cs
     projectPath: Assets/Weapon.cs
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptMapper
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ScriptMapper
+    projectPath: Library/ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ShaderCache.db
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/13/13379dba45b784add9525984ed256a74
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/metadata/13/13379dba45b784add9525984ed256a74
+    projectPath: Library/metadata/13/13379dba45b784add9525984ed256a74
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/Shared/Unity/MummyShooter/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/EffectExamples.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples.meta
+    projectPath: Assets/EffectExamples.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood.meta
+    projectPath: Assets/EffectExamples/Blood.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials.meta
+    projectPath: Assets/EffectExamples/Blood/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat.meta
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat.meta
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodSplashParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat.meta
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodSplatParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat.meta
+    projectPath: Assets/EffectExamples/Blood/Materials/BloodStreamParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Prefabs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Prefabs.meta
+    projectPath: Assets/EffectExamples/Blood/Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab
+    projectPath: Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab.meta
+    projectPath: Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab
+    projectPath: Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab.meta
+    projectPath: Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures.meta
+    projectPath: Assets/EffectExamples/Blood/Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodDropAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodPoolAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodPoolNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Blood/Textures/BloodStreamAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Profiles.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Profiles.meta
+    projectPath: Assets/EffectExamples/Profiles.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Profiles/EffectsProfile.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Profiles/EffectsProfile.asset
+    projectPath: Assets/EffectExamples/Profiles/EffectsProfile.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Profiles/EffectsProfile.asset.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Profiles/EffectsProfile.asset.meta
+    projectPath: Assets/EffectExamples/Profiles/EffectsProfile.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes.meta
+    projectPath: Assets/EffectExamples/Scenes.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu.meta
+    projectPath: Assets/EffectExamples/Scenes/Menu.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu.unity
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu.unity
+    projectPath: Assets/EffectExamples/Scenes/Menu.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu.unity.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu.unity.meta
+    projectPath: Assets/EffectExamples/Scenes/Menu.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/LightingData.asset
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/LightingData.asset
+    projectPath: Assets/EffectExamples/Scenes/Menu/LightingData.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/LightingData.asset.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/LightingData.asset.meta
+    projectPath: Assets/EffectExamples/Scenes/Menu/LightingData.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr
+    projectPath: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr.meta
+    projectPath: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-0.exr.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr
+    projectPath: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr.meta
+    projectPath: Assets/EffectExamples/Scenes/Menu/ReflectionProbe-1.exr.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared.meta
+    projectPath: Assets/EffectExamples/Shared.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation.meta
+    projectPath: Assets/EffectExamples/Shared/Animation.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Animations.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Animations.meta
+    projectPath: Assets/EffectExamples/Shared/Animation/Animations.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim
+    projectPath: Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim.meta
+    projectPath: Assets/EffectExamples/Shared/Animation/Animations/GunFire.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim
+    projectPath: Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim.meta
+    projectPath: Assets/EffectExamples/Shared/Animation/Animations/GunIdle.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Controllers.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Controllers.meta
+    projectPath: Assets/EffectExamples/Shared/Animation/Controllers.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller
+    projectPath: Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller.meta
+    projectPath: Assets/EffectExamples/Shared/Animation/Controllers/Gun.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Fonts.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Fonts.meta
+    projectPath: Assets/EffectExamples/Shared/Fonts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf
+    projectPath: Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf.meta
+    projectPath: Assets/EffectExamples/Shared/Fonts/Roboto-Thin.ttf.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf
+    projectPath: Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf.meta
+    projectPath: Assets/EffectExamples/Shared/Fonts/RobotoCondensed-Bold.ttf.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials.meta
+    projectPath: Assets/EffectExamples/Shared/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/Background.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/Background.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/Background.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/Background.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/Background.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/Background.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/DarkDefault.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/DarkDefault.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/DarkDefault.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/DarkDefault.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/DarkDefault.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/DarkDefault.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/FleshSurface.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/FleshSurface.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/FleshSurface.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/FleshSurface.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/FleshSurface.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/FleshSurface.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/MetalSurface.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/MetalSurface.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/MetalSurface.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/MetalSurface.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/MetalSurface.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/MetalSurface.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/SandSurface.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/SandSurface.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/SandSurface.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/SandSurface.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/SandSurface.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/SandSurface.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/Skybox.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/Skybox.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/Skybox.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/Skybox.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/Skybox.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/Skybox.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/StoneSurface.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/StoneSurface.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/StoneSurface.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/StoneSurface.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/StoneSurface.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/StoneSurface.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/WoodSurface.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/WoodSurface.mat
+    projectPath: Assets/EffectExamples/Shared/Materials/WoodSurface.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Materials/WoodSurface.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Materials/WoodSurface.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Materials/WoodSurface.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models.meta
+    projectPath: Assets/EffectExamples/Shared/Models.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/BackGround.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/BackGround.FBX
+    projectPath: Assets/EffectExamples/Shared/Models/BackGround.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/BackGround.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/BackGround.FBX.meta
+    projectPath: Assets/EffectExamples/Shared/Models/BackGround.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/FPSWeapon.fbx
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx
+    projectPath: Assets/EffectExamples/Shared/Models/FPSWeapon.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/FPSWeapon.fbx.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/FPSWeapon.fbx.meta
+    projectPath: Assets/EffectExamples/Shared/Models/FPSWeapon.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/LowMan.fbx
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/LowMan.fbx
+    projectPath: Assets/EffectExamples/Shared/Models/LowMan.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/LowMan.fbx.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/LowMan.fbx.meta
+    projectPath: Assets/EffectExamples/Shared/Models/LowMan.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials.meta
+    projectPath: Assets/EffectExamples/Shared/Models/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/MazeLowMan.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/No Name.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/No
+      Name.mat
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/No Name.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/No Name.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/No
+      Name.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/No Name.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat.meta
+    projectPath: Assets/EffectExamples/Shared/Models/Materials/ShooterFPSWeapon.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Meat.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Sand.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilled.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial.meta
+    projectPath: Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Flesh.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Flesh.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Flesh.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Flesh.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Flesh.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Metal.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Metal.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Metal.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Metal.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Metal.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Metal.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/ParticlesLight.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Sand.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Sand.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Sand.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Sand.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Sand.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Sand.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Stone.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Stone.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Stone.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Stone.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Stone.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Stone.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/WaterFilled.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Wood.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Wood.prefab
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Wood.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Prefabs/Wood.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Prefabs/Wood.prefab.meta
+    projectPath: Assets/EffectExamples/Shared/Prefabs/Wood.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/GunAim.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/GunAim.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/GunAim.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/GunAim.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/GunAim.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/GunAim.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/GunShoot.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/GunShoot.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/GunShoot.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/GunShoot.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/GunShoot.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/GunShoot.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs.meta
+    projectPath: Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Shaders.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Shaders.meta
+    projectPath: Assets/EffectExamples/Shared/Shaders.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader
+    projectPath: Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader.meta
+    projectPath: Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Sprites.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Sprites.meta
+    projectPath: Assets/EffectExamples/Shared/Sprites.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif
+    projectPath: Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Sprites/UnityLogoSprite.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures.meta
+    projectPath: Assets/EffectExamples/Shared/Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/BackgroundAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsAlpha.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsNormals.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/CloudsOcclusion.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+    projectPath: Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/StoneAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/StoneNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/StoneNormals.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/StoneNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/StoneNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/StoneNormals.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/StoneNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/WoodAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/WoodNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/WoodNormals.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/WoodNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/WoodNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/WoodNormals.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/WoodNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/fleshNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/fleshNormals.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/fleshNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/fleshNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/fleshNormals.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/fleshNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_a.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_n.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif.meta
+    projectPath: Assets/EffectExamples/Shared/Textures/wood_tiled_02_o.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects.meta
+    projectPath: Assets/EffectExamples/WeaponEffects.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalMetal.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/DustPuffParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/ShallCasing.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/TinyStonesParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/WaterStreamParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Materials/WoodSplintersParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Models.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/Materials.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/Materials.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/Materials.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/Materials/No
+      Name.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/Materials/No
+      Name.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/Materials/No Name.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Models/ShellCasing.FBX.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWaterContainerExtinguisherEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactWoodEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreak.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/StreamNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesNormalsSheet.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/TinyStonesParticleSheet.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WaterDropsParticle.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WaterSplashParticle.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleDepth.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleNormals.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersAlbedo.tif.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif.meta
+    fullPath: /Users/Shared/Unity/MummyShooter/Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif.meta
+    projectPath: Assets/EffectExamples/WeaponEffects/Textures/woodSplintersNormals.tif.meta
+    originalPath: 
+    status: 1
     staged: 0

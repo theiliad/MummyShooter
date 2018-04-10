@@ -47,14 +47,19 @@ public class Weapon : MonoBehaviour {
 
     public int numOfMummies = 1;
 
+    private GameObject originalMummy;
+
     void spawnMummy() {
         Vector3 randomPos = new Vector3(UnityEngine.Random.Range(0.0f, 90.0f), 0, UnityEngine.Random.Range(0.0f, 90.0f));
-        if (GameObject.Find("mummy_rig") != null) {
-            Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
+        originalMummy.SetActive(true);
+        if (originalMummy != null) {
+            GameObject newMummy = Instantiate(GameObject.Find("mummy_rig"), randomPos, Quaternion.identity);
+            newMummy.transform.Find("BloodSprayEffect").gameObject.SetActive(false);
 
             numOfMummies++;
             mummiesText.text = "Mummmies: " + numOfMummies;
-        }    
+        }
+        originalMummy.SetActive(false);
     }
 
     void spawnAmmoAndHealth() {
@@ -84,14 +89,17 @@ public class Weapon : MonoBehaviour {
         winnerText.gameObject.SetActive(false);
         loserText.gameObject.SetActive(false);
 
+        originalMummy = GameObject.Find("mummy_rig");
+        originalMummy.SetActive(false);
+
         for (int i = 0; i < 5; i++) {
             spawnMummy();
 
-            if (i < 4)
-            spawnAmmoAndHealth();
+            if (i < 3)
+                spawnAmmoAndHealth();
         }
         InvokeRepeating("spawnMummy", 5.0f, 5.0f);
-        InvokeRepeating("spawnAmmoAndHealth", 1.0f, 1.0f);
+        InvokeRepeating("spawnAmmoAndHealth", 30.0f, 30.0f);
         
         _AudioSources = GetComponents<AudioSource>();
         if (!_devMode) {
@@ -178,6 +186,11 @@ public class Weapon : MonoBehaviour {
         }
     }
 
+    IEnumerator _hideBloodSplatter(float delay, GameObject mummyObject) {
+        yield return new WaitForSeconds(delay);
+        mummyObject.transform.Find("BloodSprayEffect").gameObject.SetActive(false);
+    }
+
     private void _fire() {
         if (fireTimer < fireRate || numOfBullets <= 0 || isReloading) return;
 
@@ -185,13 +198,19 @@ public class Weapon : MonoBehaviour {
         if (Physics.Raycast(shootPoint.position, shootPoint.transform.forward, out hit, range)) {
             Debug.Log("HIT FOUND" + hit.collider.name);
 
-            GameObject hitParticleEffect = Instantiate(hitParticles, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
-            Destroy(hitParticleEffect, 1f);
-
             if (hit.collider.GetComponentInParent<HealthController>()) {
                 Debug.Log("HEALTH CONTROLLER FOUND");
                 hit.collider.GetComponentInParent<HealthController>().ApplyDamage(damageAmount);
+
+
+                GameObject mummyObject = hit.collider.transform.parent.gameObject;
+                mummyObject.transform.Find("BloodSprayEffect").gameObject.SetActive(true);
+
+                StartCoroutine(_hideBloodSplatter(0.5f, mummyObject));
             } else {
+                GameObject hitParticleEffect = Instantiate(hitParticles, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
+                Destroy(hitParticleEffect, 1f);
+
                 GameObject bulletHole = Instantiate(bulletImpact, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
                 Destroy(bulletHole, 30f);
             }
